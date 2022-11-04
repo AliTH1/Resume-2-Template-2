@@ -1,0 +1,880 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.main{
+    width: 100%;
+    height: 1600px;
+    float: left;
+    background-image: url("../img/polygon_1.png");
+    background-size: 1300px 150px;
+    background-repeat: no-repeat;
+}
+
+.fa-circle{
+    margin-top: 4px;
+}
+
+.left{
+    width: 400px;
+    height: 1600px;
+    float: left;
+    background-color: rgba(191, 191, 191, 0.1);;
+}
+
+.portret{
+    width: 200px;
+    height: 200px;
+    margin: 35px 0px 0px 35px;
+}
+
+.left-text{
+    width: 350px;
+    height: 120px;
+    float: left;
+    font-size: 17px;
+    margin: 10px 0px 0px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #606880;
+}
+
+.contact-info{
+    width: 350px;
+    min-height: 230px;
+    float: left;
+    margin: 25px 0px 0px 30px;
+}
+
+.mail-info{
+    width: 250px;
+    height: 60px;
+    float: left;
+}
+
+.div-mail-icon{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-color: #E2E6EE;
+    border-radius: 20px;
+    position: relative
+}
+
+.mail-icon{
+    width: 35px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+
+
+.mail-text{
+    width: 170px;
+    height: 50px;
+    float: left;
+}
+
+.ul-mail-text{
+    margin: 5px 0px 0px 10px;
+    list-style-type: none;
+}
+
+
+
+.website-info{
+    width: 250px;
+    height: 60px;
+    float: left;
+}
+
+.div-website-icon{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-color: #E2E6EE;
+    border-radius: 20px;
+    position: relative;
+}
+
+.website-icon{
+    width: 30px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    top: 8px;
+    left: 7.5px;
+}
+
+
+.website-text{
+    width: 170px;
+    height: 50px;
+    float: left;
+    margin: 5px 0px 0px 10px;
+}
+
+.website-link{
+    color: #47516B;
+    text-decoration: none;
+}
+
+
+
+.phone-info{
+    width: 250px;
+    height: 60px;
+    float: left;
+}
+
+.div-phone-icon{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-color: #E2E6EE;
+    border-radius: 20px;
+    position: relative;
+}
+
+.phone-icon{
+    width: 25px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+.phone-text{
+    width: 170px;
+    height: 50px;
+    float: left;
+}
+
+.ul-phone-text{
+    list-style-type: none;
+    margin: 5px 0px 0px 10px;
+}
+
+
+
+.address-info{
+    width: 250px;
+    height: 60px;
+    float: left;
+}
+
+.div-address-icon{
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-color: #E2E6EE;
+    border-radius: 20px;
+    position: relative;
+}
+
+.address-icon{
+    width: 20px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    top: 5.5px;
+    left: 13px;
+}
+
+.address-text{
+    width: 170px;
+    height: 50px;
+    float: left;
+}
+
+.ul-address-text{
+    list-style-type: none;
+    margin: 5px 0px 0px 10px;
+}
+
+.socials{
+    width: 300px;
+    min-height: 150px;
+    float: left;
+    margin: 20px 0px 0px 30px;
+}
+
+.social-text{
+    width: 200px;
+    height: 30px;
+    float: left;
+}
+
+.socials-content{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.twitter{
+    width: 200px;
+    height: 40px;
+    float: left;
+}
+
+.div-twitter-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    float: left;
+    background: #00ACEE;
+    position: relative;
+}
+
+.twitter-icon{
+    width: 25px;
+    height: 25px;
+    float: left;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    color: white;
+}
+
+.twitter-text{
+    width: 100px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    list-style-type: none;
+    line-height: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.twitter-link{
+    color: #47516B;
+    text-decoration: none;
+}
+
+
+.linkedin{
+    width: 200px;
+    height: 40px;
+    margin-top: 15px;
+    float: left;
+}
+
+.div-linkedin-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    float: left;
+    background-color: #0077B5;
+    position: relative;
+}
+
+.linkedin-icon{
+    width: 25px;
+    height: 25px;
+    float: left;
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    color: white;
+}
+
+.linkedin-text{
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    line-height: 20px;
+    float: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.linkedin-link{
+    color: #47516B;
+    text-decoration: none;
+}
+
+
+
+
+.right{
+    width: 800px;
+    height: 1500px;
+    float: left;
+    margin: 100px 0px 0px 30px;
+}
+
+.head-text{
+    width: 400px;
+    height: 150px;
+    float: left;
+}
+
+.name-surname-text{
+    color: #2E2E48;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 68px;
+}
+
+.profession-text{
+    color: #2E2E48;
+    font-size: 44px;
+}
+
+.right-head-text{
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+
+.right-head-text-1{
+    font-size: 50px;
+    color: #2E2E48;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.right-head-text-2{
+    font-size: 30px;
+    color: #2E2E48;
+}
+
+.experience{
+    width: 720px;
+    min-height: 580px;
+    float: left;
+}
+
+.experience-text{
+    width: 160px;
+    height: 55px;
+    float: left;
+}
+
+.experience-span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+}
+
+.line-experience{
+    width: 100px;
+    height: 10px;
+    float: left;
+    background-color: #FFBDA8;
+}
+
+.experience-content-1{
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+
+.data-and-place-1{
+    width: 600px;
+    height: 20px;
+    float: left;
+}
+
+.experience-map-icon-1{
+    width: 10px;
+    height: 20px;
+    margin-left: 10px;
+    float: left;
+    color: #79819A
+}
+
+.bordeaux-text{
+    margin-left: 10px;
+    color: #79819A;
+}
+
+.company-and-role-1{
+    width: 240px;
+    height: 85px;
+    float: left;
+}
+
+.google-logo{
+    width: 90px;
+    height: 85px;
+    margin: 10px 0px 0px 20px;
+    float: left;
+}
+
+.google-img{
+    width: 75px;
+    height: 75px;
+}
+
+.experience-content-1-logo-text{
+    width: 130px;
+    height: 80px;
+    margin-top: 10px;
+    float: left;
+}
+
+.google-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.experience-content-text-1{
+    width: 420px;
+    height: 200px;
+    float: right;
+    color: #606880;
+}
+
+
+.experience-content-2{
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+    float: left;
+}
+
+.data-and-place-2{
+    width: 550px;
+    height: 20px;
+    float: left;
+}
+
+.experience-map-icon-2{
+    width: 10px;
+    height: 20px;
+    float: left;
+    margin-left: 10px;
+    color: #79819A;
+}
+
+.tours-text{
+    margin-left: 10px;
+    color: #79819A;
+}
+
+.company-and-role-2{
+    width: 220px;
+    height: 85px;
+    margin: 10px 0px 0px 25px;
+    float: left;
+}
+
+.tesla-logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.tesla-img{
+    width: 70px;
+    height: 70px;
+}
+
+.experience-content-2-logo-text{
+    width: 130px;
+    height: 50px;
+    float: left;
+}
+
+.tesla-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.experience-content-text-2{
+    width: 420px;
+    height: 120px;
+    float: right;
+    color: #606880;
+}
+
+
+.experience-content-3{
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+
+.data-and-place-3{
+    width: 550px;
+    height: 20px;
+    float: left;
+}
+
+.experience-map-icon-3{
+    width: 10px;
+    height: 20px;
+    float: left;
+    color: #79819A;
+    margin-left: 10px;
+}
+
+.tours-text{
+    margin-left: 10px;
+    color: #79819A;
+}
+
+.company-and-role-3{
+    width: 220px;
+    height: 85px;
+    margin: 15px 0px 0px 25px;
+    float: left;
+
+}
+
+.netflix-logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.netflix-img{
+    width: 70px;
+    height: 70px;
+}
+
+.experience-content-3-logo-text{
+    width: 130px;
+    height: 50px;
+    margin-top: 5px;
+    float: left;
+}
+
+.netflix-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.experience-content-text-3{
+    width: 420px;
+    height: 120px;
+    float: right;
+    color: #606880;
+}
+
+
+
+.skills{
+    width: 720px;
+    height: 420px;
+    float: left;
+}
+
+.skills-text{
+    width: 160px;
+    height: 55px;
+    float: left;
+}
+
+.skills-span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+}
+
+.line-skills{
+    width: 120px;
+    height: 10px;
+    float: left;
+    background-color: #FFBDA8;
+}
+
+.skills-content{
+    width: 720px;
+    min-height: 350px;
+    margin-top: 20px;
+    float: left;
+}
+
+.react-native{
+    width: 100px;
+    height: 155px;
+    margin-left: 80px;
+    float: left;
+}
+
+.react-native-img{
+    width: 100px;
+    height: 90px;
+}
+
+.div-react-native-text{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin: 5px 0px 0px 17px;
+}
+
+.react-native-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+
+
+.redux{
+    width: 100px;
+    height: 145px;
+    margin-left: 80px;
+    float: left;
+}
+
+.redux-img{
+    width: 100px;
+    height: 90px;
+}
+
+.div-redux-text{
+    width: 70px;
+    height: 30px;
+    margin: 7px 0px 0px 15px;
+    float: left;
+}
+
+.redux-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.react{
+    width: 100px;
+    height: 155px;
+    margin-left: 80px;
+    float: left;
+}
+
+.react-img{
+    width: 100px;
+    height: 90px;
+}
+
+.div-react-text{
+    width: 70px;
+    height: 30px;
+    margin: 10px 0px 0px 16px;
+    float: left;
+}
+
+.react-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+
+.nodejs{
+    width: 100px;
+    height: 155px;
+    margin-left: 80px;
+    float: left;
+}
+
+.nodejs-img{
+    width: 75px;
+    height: 90px;
+    margin-left: 15px;
+}
+
+.div-nodejs-text{
+    width: 75px;
+    height: 30px;
+    margin: 10px 0px 0px 17px;
+    float: left;
+}
+
+.nodejs-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.figma{
+    width: 100px;
+    height: 155px;
+    margin: 25px 0px 0px 150px;
+    float: left;
+}
+
+.figma-img{
+    width: 100px;
+    height: 90px;
+}
+
+.div-figma-text{
+    width: 65px;
+    height: 30px;
+    margin: 10px 0px 0px 20px;
+    float: left;
+}
+
+.figma-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.project-management{
+    width: 150px;
+    height: 155px;
+    margin: 20px 0px 0px 70px;
+    float: left;
+}
+
+.project-management-img{
+    width: 100px;
+    height: 90px;
+    margin-left: 25px;
+}
+
+.div-proj-manag-text{
+    width: 150px;
+    height: 55px;
+    float: left;
+    text-align: center;
+}
+
+.proj-manag-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.laravel{
+    width: 100px;
+    height: 155px;
+    margin: 20px 0px 0px 70px;
+    float: left;
+}
+
+.laravel-img{
+    width: 100px;
+    height: 90px;
+}
+
+.div-laravel-text{
+    width: 80px;
+    height: 50px;
+    margin-left: 10px;
+    float: left;
+}
+
+.laravel-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+
+
+.education{
+    width: 720px;
+    height: 300px;
+    margin-top: 20px;
+    float: left;
+}
+
+.education-text{
+    width: 160px;
+    height: 55px;
+    float: left;
+}
+
+.education-span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+}
+
+.line-education{
+    width: 120px;
+    height: 10px;
+    float: left;
+    background-color: #FFBDA8;
+}
+
+.education-content{
+    width: 100%;
+    height: 250px;
+    float: left;
+}
+
+
+
+.education-content-1{
+    width: 100%;
+    height: 130px;
+    float: left;
+}
+
+.education-data-and-place-1{
+    width: 500px;
+    height: 20px;
+    float: left;
+}
+
+.education-company-and-role-1{
+    width: 260px;
+    height: 85px;
+    margin-top: 5px;
+    float: left;
+}
+
+.stanford-logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.stanford-img{
+    width: 70px;
+    height: 70px;
+}
+
+.stanford-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.education-content-text-1{
+    width: 420px;
+    height: 200px;
+    float: right;
+    color: #606880;
+}
+
+
+.education-content-2{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+.education-data-and-place-2{
+    width: 500px;
+    height: 20px;
+    float: left;
+}
+
+.education-company-and-role-2{
+    width: 260px;
+    height: 75px;
+    margin-top: 5px;
+    float: left;
+}
+
+.stanford-logo-2{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.stanford-img-2{
+    width: 70px;
+    height: 70px;
+    opacity: 0.8;
+}
+
+.stanford-text-2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.education-content-text-2{
+    width: 420px;
+    height: 90px;
+    float: right;
+    color: #606880;
+}
